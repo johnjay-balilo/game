@@ -11,54 +11,67 @@
 	<!-- jquery cdn -->
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
 
-	<!-- google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
 
-
-	<title> jQuery Activity </title>
+	<title> JS Game </title>
 </head>
 <body>
 
-	<h1> What can jQuery do? </h1>
-	
-	<hr>
-
-	<h2> jQuery can hide/show HTML elements. </h2>
-	<button id="hide"> Hide All </button>
-	<button id="show"> Show All </button>
-	<button id="toggle"> Toggle All </button>
-
-	<div class="container">
-		<h2 id="text"> jQuery can change HTML content. </h2>
-		<button id="changeHTML"> Change HTML content </button>
-
-		<br>
-
-		<h2> jQuery can change HTML attributes. </h2>
-		<button id="changeHeight"> Change Image Height </button>
-		<button id="changeImage"> Change Image </button>
-
-		<br>
-
-		<img src="assets/images/x.jpg" height="200">
-
-		<br>
-
-		<h2 id="style"> jQuery can change HTML styles. (CSS) </h2>
-		<button id="changeStyle"> Change style </button>
-		
-
-
-
-
-
+	<div id="landing">
+		<h1 id="welcome"> Play 2 Pics 1 Word </h1>
+		<button id="play"> Play </button>
 	</div>
 
+	<div id="first">
 
+		<div class="top">
 
+			<img src="assets/images/hot.jpg">
+			<img src="assets/images/dog.jpg">
 
+			<br>
 
+			<div id="answer-box">
 
+				<div id="box1"></div>
+				<div id="box2"></div>
+				<div id="box3"></div>
+				<div id="box4"></div>
+				<div id="box5"></div>
+				<div id="box6"></div>
+
+			</div>
+			
+		</div>
+
+		<div class="bottom">
+
+			<br><br>
+
+			<button id="1"></button>
+			<button id="2"></button>
+			<button id="3"></button>
+			<button id="4"></button>
+			<button id="5"></button>
+			<button id="6"></button>
+
+			<br><br>
+			
+			<button id="7"></button>
+			<button id="8"></button>
+			<button id="9"></button>
+			<button id="10"></button>
+			<button id="11"></button>
+			<button id="12"></button>
+
+			<br><br>		
+			
+			<button id="shuffle"> Shuffle </button>
+			<button id="reset"> Reset </button>
+
+		</div>
+
+	</div>
+		
 
 
 
