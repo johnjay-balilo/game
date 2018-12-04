@@ -41,7 +41,7 @@ $("#changeImage").click( () => {
 	$("img").toggleClass("o")
 })
 
-// $("#changeStyle").toggle( () => {
+// $("#changeStyle").click( () => {
 // 	$("#style").css("color", "blue")
 // })
 
