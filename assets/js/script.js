@@ -1,5 +1,5 @@
 
-$('#enter').click(function() {
+$('#play').click(function() {
 	$('#landing').hide("display");
 })
 
