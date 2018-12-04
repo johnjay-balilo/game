@@ -10,41 +10,45 @@
 
 
 $("#hide").click( () => {
-	$(".container").addClass("hidden")
+	$(".container").addClass("hidden");
 })
 
 $("#show").click( () => {
-	$(".container").removeClass("hidden")
+	$(".container").removeClass("hidden");
 })
 
+// $("#toggle").click( () => {
+// 	$(".container").toggleClass("hidden");
+// })
+
 $("#toggle").click( () => {
-	$(".container").toggleClass("hidden")
+	$(".container").toggle("display");
 })
 
 $("#changeHTML").click( () => {
-	$("#text").html("jQuery")
+	$("#text").text("Hello Wherld.");
 })
 
 // $("#changeHeight").click( () => {
-// 	$("img").css("height", 100)
+// 	$("img").css("height", 100);
 // })
 
 $("#changeHeight").click( () => {
-	$("img").toggleClass("smaller")
+	$("img").toggleClass("smaller");
 })
 
 // $("#changeImage").click( () => {
-// 	$("img").attr("src", "assets/images/o.jpg")
+// 	$("img").attr("src", "assets/images/o.jpg");
 // })
 
 $("#changeImage").click( () => {
-	$("img").toggleClass("o")
+	$("img").toggleClass("o");
 })
 
 // $("#changeStyle").click( () => {
-// 	$("#style").css("color", "blue")
+// 	$("#style").css("color", "blue");
 // })
 
 $("#changeStyle").click( () => {
-	$("#style").toggleClass("blue")
+	$("#style").toggleClass("blue");
 })
