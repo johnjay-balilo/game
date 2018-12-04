@@ -1,0 +1,15 @@
+.hidden {
+	display: none;
+}
+
+.blue {
+	color: blue;
+}
+
+.o {
+	content: url(../images/o.jpg)
+}
+
+.smaller {
+	height: 100px;
+}
