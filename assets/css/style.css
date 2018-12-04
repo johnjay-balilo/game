@@ -73,7 +73,7 @@ img {
 
 
 /*mobile styles*/
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 500px) {
 	img {
 		height: 100px;
 		width: 100px;
